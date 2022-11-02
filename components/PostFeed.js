@@ -27,9 +27,9 @@ function PostItem({ post, admin = false }) {
 
       <footer>
         <span>
-          {wordCount} words. {minutesToRead} min read
+          {wordCount} words. {minutesToRead} min read 
         </span>
-        <span>❤️ {post.heartCount} Hearts</span>
+        <span className="push-left">❤️ {post.heartCount} Hearts</span>
       </footer>
     </div>
   );
